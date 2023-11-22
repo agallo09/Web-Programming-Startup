@@ -36,5 +36,4 @@
         <div>Footer</div>
       </footer>
     </body>
-
 ![Interface](./Resources./startup-design.png)
