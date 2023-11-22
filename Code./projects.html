@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Manager</title>
+    <link rel="icon" href="tabpic.png" />
+    <link rel="stylesheet" type="text/css" href="CSSstyling.css">
+  </head>
+  <body>
+    <!-- Use header, main, and footer elements to give semantic structure -->
+    <header>
+      <h1>Product Manager<sup>&reg;</sup></h1>
+
+      <!-- Navigation elements -->
+      <nav>
+        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+        <menu>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="aboutpage.html">About us</a></li>
+            <li><a href="blogpage.html">Blog</a></li>
+            <li><a href="supportpage.html">Support</a></li>
+        </menu>
+      </nav>
+
+      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
+      <hr />
+    </header>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            display: inline-block;
+            vertical-align: top;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            width: 28%;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        .chart {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+    </header>
+    <div class="section">
+        <h2>To Do's</h2>
+        <div class="chart">
+            <p><strong>Person:</strong> John</p>
+            <p><strong>Project:</strong> Project A</p>
+            <p><strong>Deadline:</strong> November 15, 2023</p>
+        </div>
+        <div class="chart">
+            <p><strong>Person:</strong> John</p>
+            <p><strong>Project:</strong> Project A</p>
+            <p><strong>Deadline:</strong> November 15, 2023</p>
+        </div>
+        <div class="chart">
+            <p><strong>Person:</strong> John</p>
+            <p><strong>Project:</strong> Project A</p>
+            <p><strong>Deadline:</strong> November 15, 2023</p>
+        </div>
+        <!-- Add more charts as needed -->
+    </div>
+
+    <div class="section">
+        <h2>In Progress</h2>
+        <div class="chart">
+            <p><strong>Person:</strong> Jane</p>
+            <p><strong>Project:</strong> Project B</p>
+            <p><strong>Deadline:</strong> December 5, 2023</p>
+        </div>
+        <div class="chart">
+            <p><strong>Person:</strong> Jane</p>
+            <p><strong>Project:</strong> Project B</p>
+            <p><strong>Deadline:</strong> December 5, 2023</p>
+        </div>
+        <div class="chart">
+            <p><strong>Person:</strong> Jane</p>
+            <p><strong>Project:</strong> Project B</p>
+            <p><strong>Deadline:</strong> December 5, 2023</p>
+        </div>
+        <!-- Add more charts as needed -->
+    </div>
+
+    <div class="section">
+        <h2>Done</h2>
+        <div class="chart">
+            <p><strong>Person:</strong> Mark</p>
+            <p><strong>Project:</strong> Project C</p>
+            <p><strong>Deadline:</strong> October 20, 2023</p>
+        </div>
+        <div class="chart">
+            <p><strong>Person:</strong> Mark</p>
+            <p><strong>Project:</strong> Project C</p>
+            <p><strong>Deadline:</strong> October 20, 2023</p>
+        </div>
+        <div class="chart">
+            <p><strong>Person:</strong> Mark</p>
+            <p><strong>Project:</strong> Project C</p>
+            <p><strong>Deadline:</strong> October 20, 2023</p>
+        </div>
+        <!-- Add more charts as needed -->
+    </div>
+</body>
+<footer>
+    &copy; 2023 Dashboard
+</footer>
