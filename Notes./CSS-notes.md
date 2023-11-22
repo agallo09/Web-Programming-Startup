@@ -1,3 +1,4 @@
+# CodePen starting example    
     <body>
       <header>
         <h1>Header</h1>
@@ -35,3 +36,5 @@
         <div>Footer</div>
       </footer>
     </body>
+
+![Interface](./Resources./startup-design.png)
