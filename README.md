@@ -3,7 +3,7 @@
 ### Elevator Pitch
 CampusCollab is the answer to the age-old challenge of finding the right collaborators for your projects. We've streamlined the process, using cutting-edge technology to match your skills and project needs with like-minded college students eager to bring your ideas to life. With real-time interaction, secure project management, and a thriving community, CampusCollab offers a seamless, efficient, and secure platform that connects passionate individuals, allowing them to focus on what they do best—innovating and collaborating. Say goodbye to the frustration of finding collaborators and embrace the power of easy, meaningful connections with CampusCollab.
 ### Design
-![Interface](design.png)
+![Interface](startup design.png)
 ### Specific Aspects
 - User Profiles: Use HTML, CSS, and JavaScript to create visually appealing and informative user profiles. Enable users to fill in details about their skills, interests, and availability for projects.
 - Search and Matching Algorithm: Implement a web service for searching and matching users with relevant projects based on their skills and preferences. This can involve complex algorithms to ensure optimal project recommendations.
