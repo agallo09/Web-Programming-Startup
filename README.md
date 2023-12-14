@@ -1,9 +1,13 @@
-# Startup: CampusCollab
+# Startup: PeerResumeReview
 ## Project Description
 ### Elevator Pitch
-CampusCollab is the answer to the age-old challenge of finding the right collaborators for your projects. We've streamlined the process, using cutting-edge technology to match your skills and project needs with like-minded college students eager to bring your ideas to life. With real-time interaction, secure project management, and a thriving community, CampusCollab offers a seamless, efficient, and secure platform that connects passionate individuals, allowing them to focus on what they do best—innovating and collaborating. Say goodbye to the frustration of finding collaborators and embrace the power of easy, meaningful connections with CampusCollab.
+Introducing PeerResummeCollab, where crafting a standout resume becomes a collaborative journey. Our platform empowers individuals to effortlessly create professional resumes while fostering a community-driven atmosphere. Seamlessly seek and provide constructive feedback, allowing your career story to shine. Join PeerResummeCollab to elevate your resume-building experience through the power of collaborative excellence.
 ### Design
-![Interface](./Resources./startup-design.png)
+![Interface](./Resources./index.png)
+![Interface](./Resources./Login.png)
+![Interface](./Resources./Resume.png)
+![Interface](./Resources./Community.png)
+![Interface](./Resources./About.png)
 ### Specific Aspects
 - User Profiles: Use HTML, CSS, and JavaScript to create visually appealing and informative user profiles. Enable users to fill in details about their skills, interests, and availability for projects.
 - Search and Matching Algorithm: Implement a web service for searching and matching users with relevant projects based on their skills and preferences. This can involve complex algorithms to ensure optimal project recommendations.
