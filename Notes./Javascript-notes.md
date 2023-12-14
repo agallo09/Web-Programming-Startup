@@ -425,3 +425,22 @@ const { a, c } = o;
 console.log(a, c);
 // OUTPUT 1, ['fish', 'cats']
 ```
+
+# JavaScript modules
+**index.html**
+
+```html
+<html>
+  <body>
+    <script type="module">
+      import { alertDisplay } from './alert.js';
+      window.btnClick = alertDisplay;
+
+      document.body.addEventListener('keypress', function (event) {
+        alertDisplay('Key pressed');
+      });
+    </script>
+    <button onclick="btnClick('button clicked')">Press me</button>
+  </body>
+</html>
+```
