@@ -1,4 +1,19 @@
 # Startup: PeerResumeReview
+# General
+### Course : https://github.com/webprogramming260 
+Topics: HTML CSS JavaScript Web services Database storage User authentication WebSockets React
+More Topics : Command console Git & GitHub Web servers HTTP & HTTPS Domain names, DNS Web certificates Web design Security
+## Deliverable versions of your startup application:
+Design
+HTML
+CSS
+JavaScript
+Web service
+Database
+Login
+WebSocket
+React
+
 ## Project Description
 ### Elevator Pitch
 Introducing PeerResummeCollab, where crafting a standout resume becomes a collaborative journey. Our platform empowers individuals to effortlessly create professional resumes while fostering a community-driven atmosphere. Seamlessly seek and provide constructive feedback, allowing your career story to shine. Join PeerResummeCollab to elevate your resume-building experience through the power of collaborative excellence.
