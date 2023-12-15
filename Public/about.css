@@ -1,0 +1,17 @@
+
+.container-fluid {
+    padding: 0;
+  }
+  
+  .picture-box {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .picture-box img {
+    width: 750px;
+    height: 400px;
+    border: 15px solid #ccc;
+    display: block;
+    margin: 0 auto; /* Center images on the x-axis */
+  }

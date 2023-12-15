@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PeerResumeReview</title>
+    <link rel="icon" href="tabpic.png" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="index.css" />
+    
+
+
+
+    <!-- Include bootstrap CSS framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <header class="container-fluid">
+      <nav class="navbar fixed-top navbar-dark">
+        <a class="navbar-brand" href="#">PeerResumeReview<sup>&reg;</sup></a>
+        <menu class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">YourResume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </menu>
+      </nav>
+    </header>
+    <main class="container-fluid bg-secondary text-center">
+      <div>
+        <h1 class="custom-heading">Welcome to PeerResumeReview</h1>
+        <p class="custom-paragraph">
+          Our platform empowers individuals to effortlessly create
+        </p>
+        <p class="custom-paragraph">
+          professional resumes while fostering a community-driven atmosphere.
+        </p>
+        <p class="custom-paragraph">
+          Seamlessly seek and provide constructive feedback, allowing your career
+        </p>
+        <p class="custom-paragraph">
+          story to shine. Join to elevate your resume-building experience
+        </p>
+        <!-- Modified the login form -->
+        <form id="login-form">
+          <input type="email" id="email" placeholder="Your email" required />
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="password" id="password" placeholder="Your password" required />
+          <button type="button" class="btn btn-primary" onclick="login()">Login</button>
+          <button type="button" class="btn btn-secondary" onclick="createAccount()">Create Account</button>
+        </form>
+      </div>
+    </main>
+    <script defer src="/Users/alejandrogallo/Desktop/cs-classes/cs-260/startup/Code./Server/login.js"></script>
+    <script defer src="index.js"></script>
+    <script src="https://cdn.socket.io/4.1.3/socket.io.min.js"></script>
+
+    <footer class="bg-dark text-white-50">
+      <div class="container-fluid">
+        <span class="text-reset">Alejandro Gallo</span>
+        <a class="text-reset" href="https://github.com/agallo09/Web-Programming-Startup/tree/main">Source</a>
+      </div>
+    </footer>
+  </body>
+</html>
